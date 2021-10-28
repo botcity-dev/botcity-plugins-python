@@ -1,0 +1,5 @@
+
+# Don't version mkdocs product
+site/
+
+bot*-python/
