@@ -4,6 +4,7 @@ copyright: BotCity &copy; - All rights reserved
 nav:
     - Home: index.md
     - Plugins:
+      - Captcha:  '!include ./bot-captcha-plugin-python/mkdocs.yml'
       - Crawler:  '!include ./bot-crawler-plugin-python/mkdocs.yml'
     - Utils: '!include ./botcity-utils-python/mkdocs.yml'
 
