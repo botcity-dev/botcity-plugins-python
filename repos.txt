@@ -1,3 +1,4 @@
 https://bitbucket.org/botcitydev/bot-captcha-plugin-python.git
 https://bitbucket.org/botcitydev/bot-crawler-plugin-python.git
+https://bitbucket.org/botcitydev/bot-csv-plugin-python.git
 https://bitbucket.org/botcitydev/botcity-utils-python.git

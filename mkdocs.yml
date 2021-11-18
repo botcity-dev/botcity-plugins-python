@@ -6,6 +6,7 @@ nav:
     - Plugins:
       - Captcha:  '!include ./bot-captcha-plugin-python/mkdocs.yml'
       - Crawler:  '!include ./bot-crawler-plugin-python/mkdocs.yml'
+      - CSV:  '!include ./bot-csv-plugin-python/mkdocs.yml'
     - Utils: '!include ./botcity-utils-python/mkdocs.yml'
 
 theme:
