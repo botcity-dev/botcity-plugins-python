@@ -615,6 +615,40 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#installing-poppler" class="md-nav__link">
+    Installing Poppler
+  </a>
+  
+    <nav class="md-nav" aria-label="Installing Poppler">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#windows" class="md-nav__link">
+    Windows
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#linux" class="md-nav__link">
+    Linux
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#macos" class="md-nav__link">
+    MacOS
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -927,6 +961,40 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#installing-poppler" class="md-nav__link">
+    Installing Poppler
+  </a>
+  
+    <nav class="md-nav" aria-label="Installing Poppler">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#windows" class="md-nav__link">
+    Windows
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#linux" class="md-nav__link">
+    Linux
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#macos" class="md-nav__link">
+    MacOS
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -951,6 +1019,26 @@
 <h3 id="latest-release">Latest release</h3>
 <h4 id="using-pypi">Using PyPI</h4>
 <div class="highlight"><pre><span></span><code>pip install botcity-cloudvision-plugin
+</code></pre></div>
+<p><strong>Attention:</strong> This package also depends on a non-Python dependency, <code>Poppler</code>. You can find instructions on how to install Poppler for your favorite OS below.</p>
+<h3 id="installing-poppler">Installing Poppler</h3>
+<p>Poppler is a PDF rendering library based on the xpdf.</p>
+<p>Here is how to install Poppler for Windows, Linux and MacOS.</p>
+<h4 id="windows">Windows</h4>
+<ul>
+<li>Download the latest library from <a href="https://github.com/oschwartz10612/poppler-windows/releases/">this website</a>.</li>
+<li>After downloading Poppler, we need to extract to the convenient location generally under C drive.</li>
+<li>In my case, the Poppler library bin directory is <code>C:\poppler-21.11.0\Library\bin</code>. Now you need to add this directory (<code>C:\poppler-21.11.0\Library\bin</code>) to your environment variable Path.</li>
+</ul>
+<p>If you have questions on how to add a directory to your Path environment variable <a href="https://www.architectryan.com/2018/03/17/add-to-the-path-on-windows-10/">click here</a>.</p>
+<p>You are now all set!</p>
+<h4 id="linux">Linux</h4>
+<div class="highlight"><pre><span></span><code>apt install poppler-utils
+</code></pre></div>
+<h4 id="macos">MacOS</h4>
+<p>For MacOS please follow the instructions on how to install Poppler available <a href="https://macappstore.org/poppler/">here</a>.</p>
+<p>Alternatively, if you are using Anaconda you can install from your favorite channel with:</p>
+<div class="highlight"><pre><span></span><code>conda install poppler
 </code></pre></div>
                 
               
