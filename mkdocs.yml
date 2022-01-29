@@ -7,6 +7,7 @@ nav:
       - Captcha:  '!include ./bot-captcha-plugin-python/mkdocs.yml'
       - Crawler:  '!include ./bot-crawler-plugin-python/mkdocs.yml'
       - CSV:  '!include ./bot-csv-plugin-python/mkdocs.yml'
+      - Excel: '!include ./bot-excel-plugin-python/mkdocs.yml'
       - Google Cloud Vision: '!include ./bot-cloudvision-plugin-python/mkdocs.yml'
       - Http: '!include ./bot-http-plugin-python/mkdocs.yml'
     - Utils: '!include ./botcity-utils-python/mkdocs.yml'
