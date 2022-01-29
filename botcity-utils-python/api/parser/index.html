@@ -8,9 +8,8 @@
       
       
       
-      
       <link rel="icon" href="../../../assets/favicon.ico">
-      <meta name="generator" content="mkdocs-1.2.2, mkdocs-material-7.2.6">
+      <meta name="generator" content="mkdocs-1.2.3, mkdocs-material-8.1.8">
     
     
       
@@ -18,10 +17,10 @@
       
     
     
-      <link rel="stylesheet" href="../../../assets/stylesheets/main.802231af.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.6e60f8b8.min.css">
       
         
-        <link rel="stylesheet" href="../../../assets/stylesheets/palette.3f5d1f46.min.css">
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.e6a45f82.min.css">
         
       
     
@@ -31,21 +30,19 @@
         
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
-        <style>:root{--md-text-font-family:"Roboto";--md-code-font-family:"Roboto Mono"}</style>
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
       
-    
     
     
       <link rel="stylesheet" href="../../../assets/_mkdocstrings.css">
     
+    <script>__md_scope=new URL("../../..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
-
   
 
 
   
-
   
 
 
@@ -68,9 +65,8 @@
     <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="white" data-md-color-accent="">
   
     
-    <script>function __prefix(e){return new URL("../../..",location).pathname+"."+e}function __get(e,t=localStorage){return JSON.parse(t.getItem(__prefix(e)))}</script>
     
-      <script>var palette=__get("__palette");if(null!==palette&&"object"==typeof palette.color)for(var key in palette.color)document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
@@ -87,7 +83,10 @@
       
     </div>
     
-      <header class="md-header" data-md-component="header">
+    
+      
+
+<header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
     <a href="../../.." title="BotCity Plugins - Python" class="md-header__button md-logo" aria-label="BotCity Plugins - Python" data-md-component="logo">
       
@@ -121,7 +120,7 @@
           <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="white" data-md-color-accent=""  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
           
             <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7 10a2 2 0 0 1 2 2 2 2 0 0 1-2 2 2 2 0 0 1-2-2 2 2 0 0 1 2-2m10-3a5 5 0 0 1 5 5 5 5 0 0 1-5 5H7a5 5 0 0 1-5-5 5 5 0 0 1 5-5h10M7 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3h10a3 3 0 0 0 3-3 3 3 0 0 0-3-3H7z"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6zm0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4zM7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
             </label>
           
         
@@ -141,8 +140,7 @@
       <label class="md-header__button md-icon" for="__search">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
       </label>
-      
-<div class="md-search" data-md-component="search" role="dialog">
+      <div class="md-search" data-md-component="search" role="dialog">
   <label class="md-search__overlay" for="__search"></label>
   <div class="md-search__inner" role="search">
     <form class="md-search__form" name="search">
@@ -174,11 +172,14 @@
     
     
   </nav>
+  
 </header>
     
     <div class="md-container" data-md-component="container">
       
       
+        
+          
         
       
       <main class="md-main" data-md-component="main">
@@ -232,10 +233,14 @@
       
         <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
       
-      <label class="md-nav__link" for="__nav_2">
-        Plugins
-        <span class="md-nav__icon md-icon"></span>
-      </label>
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2">
+          Plugins
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <nav class="md-nav" aria-label="Plugins" data-md-level="1">
         <label class="md-nav__title" for="__nav_2">
           <span class="md-nav__icon md-icon"></span>
@@ -244,6 +249,7 @@
         <ul class="md-nav__list" data-md-scrollfix>
           
             
+              
   
   
   
@@ -253,10 +259,14 @@
       
         <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_1" type="checkbox" id="__nav_2_1" >
       
-      <label class="md-nav__link" for="__nav_2_1">
-        Captcha
-        <span class="md-nav__icon md-icon"></span>
-      </label>
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_1">
+          Captcha
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <nav class="md-nav" aria-label="Captcha" data-md-level="2">
         <label class="md-nav__title" for="__nav_2_1">
           <span class="md-nav__icon md-icon"></span>
@@ -265,6 +275,7 @@
         <ul class="md-nav__list" data-md-scrollfix>
           
             
+              
   
   
   
@@ -275,8 +286,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -287,8 +300,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -298,10 +313,14 @@
       
         <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_1_3" type="checkbox" id="__nav_2_1_3" >
       
-      <label class="md-nav__link" for="__nav_2_1_3">
-        API
-        <span class="md-nav__icon md-icon"></span>
-      </label>
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_1_3">
+          API
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <nav class="md-nav" aria-label="API" data-md-level="3">
         <label class="md-nav__title" for="__nav_2_1_3">
           <span class="md-nav__icon md-icon"></span>
@@ -310,6 +329,7 @@
         <ul class="md-nav__list" data-md-scrollfix>
           
             
+              
   
   
   
@@ -320,20 +340,24 @@
     </li>
   
 
+            
           
         </ul>
       </nav>
     </li>
   
 
+            
           
         </ul>
       </nav>
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -343,10 +367,14 @@
       
         <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_2" type="checkbox" id="__nav_2_2" >
       
-      <label class="md-nav__link" for="__nav_2_2">
-        Crawler
-        <span class="md-nav__icon md-icon"></span>
-      </label>
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_2">
+          Crawler
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <nav class="md-nav" aria-label="Crawler" data-md-level="2">
         <label class="md-nav__title" for="__nav_2_2">
           <span class="md-nav__icon md-icon"></span>
@@ -355,6 +383,7 @@
         <ul class="md-nav__list" data-md-scrollfix>
           
             
+              
   
   
   
@@ -365,8 +394,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -377,8 +408,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -388,10 +421,14 @@
       
         <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_2_3" type="checkbox" id="__nav_2_2_3" >
       
-      <label class="md-nav__link" for="__nav_2_2_3">
-        API
-        <span class="md-nav__icon md-icon"></span>
-      </label>
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_2_3">
+          API
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <nav class="md-nav" aria-label="API" data-md-level="3">
         <label class="md-nav__title" for="__nav_2_2_3">
           <span class="md-nav__icon md-icon"></span>
@@ -400,6 +437,7 @@
         <ul class="md-nav__list" data-md-scrollfix>
           
             
+              
   
   
   
@@ -410,8 +448,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -422,20 +462,24 @@
     </li>
   
 
+            
           
         </ul>
       </nav>
     </li>
   
 
+            
           
         </ul>
       </nav>
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -445,10 +489,14 @@
       
         <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_3" type="checkbox" id="__nav_2_3" >
       
-      <label class="md-nav__link" for="__nav_2_3">
-        CSV
-        <span class="md-nav__icon md-icon"></span>
-      </label>
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_3">
+          CSV
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <nav class="md-nav" aria-label="CSV" data-md-level="2">
         <label class="md-nav__title" for="__nav_2_3">
           <span class="md-nav__icon md-icon"></span>
@@ -457,6 +505,7 @@
         <ul class="md-nav__list" data-md-scrollfix>
           
             
+              
   
   
   
@@ -467,8 +516,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -479,8 +530,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -490,10 +543,14 @@
       
         <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_3_3" type="checkbox" id="__nav_2_3_3" >
       
-      <label class="md-nav__link" for="__nav_2_3_3">
-        API
-        <span class="md-nav__icon md-icon"></span>
-      </label>
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_3_3">
+          API
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <nav class="md-nav" aria-label="API" data-md-level="3">
         <label class="md-nav__title" for="__nav_2_3_3">
           <span class="md-nav__icon md-icon"></span>
@@ -502,6 +559,7 @@
         <ul class="md-nav__list" data-md-scrollfix>
           
             
+              
   
   
   
@@ -512,20 +570,24 @@
     </li>
   
 
+            
           
         </ul>
       </nav>
     </li>
   
 
+            
           
         </ul>
       </nav>
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -535,18 +597,131 @@
       
         <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_4" type="checkbox" id="__nav_2_4" >
       
-      <label class="md-nav__link" for="__nav_2_4">
-        Google Cloud Vision
-        <span class="md-nav__icon md-icon"></span>
-      </label>
-      <nav class="md-nav" aria-label="Google Cloud Vision" data-md-level="2">
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_4">
+          Excel
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Excel" data-md-level="2">
         <label class="md-nav__title" for="__nav_2_4">
+          <span class="md-nav__icon md-icon"></span>
+          Excel
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../botcity-excel-plugin-python/" class="md-nav__link">
+        Home
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../botcity-excel-plugin-python/intro/" class="md-nav__link">
+        Getting Started
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_4_3" type="checkbox" id="__nav_2_4_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_4_3">
+          API
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="API" data-md-level="3">
+        <label class="md-nav__title" for="__nav_2_4_3">
+          <span class="md-nav__icon md-icon"></span>
+          API
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../botcity-excel-plugin-python/api/plugin/" class="md-nav__link">
+        Plugin
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_5" type="checkbox" id="__nav_2_5" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_5">
+          Google Cloud Vision
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Google Cloud Vision" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_5">
           <span class="md-nav__icon md-icon"></span>
           Google Cloud Vision
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
             
+              
   
   
   
@@ -557,8 +732,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -569,8 +746,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -578,20 +757,25 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_4_3" type="checkbox" id="__nav_2_4_3" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_5_3" type="checkbox" id="__nav_2_5_3" >
       
-      <label class="md-nav__link" for="__nav_2_4_3">
-        API
-        <span class="md-nav__icon md-icon"></span>
-      </label>
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_5_3">
+          API
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <nav class="md-nav" aria-label="API" data-md-level="3">
-        <label class="md-nav__title" for="__nav_2_4_3">
+        <label class="md-nav__title" for="__nav_2_5_3">
           <span class="md-nav__icon md-icon"></span>
           API
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
             
+              
   
   
   
@@ -602,20 +786,24 @@
     </li>
   
 
+            
           
         </ul>
       </nav>
     </li>
   
 
+            
           
         </ul>
       </nav>
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -623,20 +811,25 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_5" type="checkbox" id="__nav_2_5" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_6" type="checkbox" id="__nav_2_6" >
       
-      <label class="md-nav__link" for="__nav_2_5">
-        Http
-        <span class="md-nav__icon md-icon"></span>
-      </label>
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_6">
+          Http
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <nav class="md-nav" aria-label="Http" data-md-level="2">
-        <label class="md-nav__title" for="__nav_2_5">
+        <label class="md-nav__title" for="__nav_2_6">
           <span class="md-nav__icon md-icon"></span>
           Http
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
             
+              
   
   
   
@@ -647,8 +840,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -659,8 +854,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -668,20 +865,25 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_5_3" type="checkbox" id="__nav_2_5_3" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_6_3" type="checkbox" id="__nav_2_6_3" >
       
-      <label class="md-nav__link" for="__nav_2_5_3">
-        API
-        <span class="md-nav__icon md-icon"></span>
-      </label>
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_6_3">
+          API
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <nav class="md-nav" aria-label="API" data-md-level="3">
-        <label class="md-nav__title" for="__nav_2_5_3">
+        <label class="md-nav__title" for="__nav_2_6_3">
           <span class="md-nav__icon md-icon"></span>
           API
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
             
+              
   
   
   
@@ -692,18 +894,21 @@
     </li>
   
 
+            
           
         </ul>
       </nav>
     </li>
   
 
+            
           
         </ul>
       </nav>
     </li>
   
 
+            
           
         </ul>
       </nav>
@@ -726,10 +931,14 @@
       
         <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" checked>
       
-      <label class="md-nav__link" for="__nav_3">
-        Utils
-        <span class="md-nav__icon md-icon"></span>
-      </label>
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3">
+          Utils
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <nav class="md-nav" aria-label="Utils" data-md-level="1">
         <label class="md-nav__title" for="__nav_3">
           <span class="md-nav__icon md-icon"></span>
@@ -738,6 +947,7 @@
         <ul class="md-nav__list" data-md-scrollfix>
           
             
+              
   
   
   
@@ -748,8 +958,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -760,8 +972,10 @@
     </li>
   
 
+            
           
             
+              
   
   
     
@@ -773,10 +987,14 @@
       
         <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_3" type="checkbox" id="__nav_3_3" checked>
       
-      <label class="md-nav__link" for="__nav_3_3">
-        API
-        <span class="md-nav__icon md-icon"></span>
-      </label>
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_3">
+          API
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <nav class="md-nav" aria-label="API" data-md-level="2">
         <label class="md-nav__title" for="__nav_3_3">
           <span class="md-nav__icon md-icon"></span>
@@ -785,6 +1003,7 @@
         <ul class="md-nav__list" data-md-scrollfix>
           
             
+              
   
   
     
@@ -808,6 +1027,7 @@
       </a>
       
         
+
 <nav class="md-nav md-nav--secondary" aria-label="Table of contents">
   
   
@@ -939,12 +1159,14 @@
     </li>
   
 
+            
           
         </ul>
       </nav>
     </li>
   
 
+            
           
         </ul>
       </nav>
@@ -964,6 +1186,7 @@
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
                     
+
 <nav class="md-nav md-nav--secondary" aria-label="Table of contents">
   
   
@@ -1100,8 +1323,8 @@
             <article class="md-content__inner md-typeset">
               
                 
-                
-                <h1 id="parsers">Parsers</h1>
+
+<h1 id="parsers">Parsers</h1>
 <p>This module offers parsers that can be used in your code to speed up development.</p>
 <p>The <code>StringParser</code> offers useful methods to navigate and parse strings using tokens.</p>
 
@@ -1110,8 +1333,9 @@
 
 
 
-<h2 class="doc doc-heading" id="botcity.utils.parser.string.StringParser">
-        <code>botcity.utils.parser.string.StringParser</code>
+<h2 id="botcity.utils.parser.string.StringParser" class="doc doc-heading">
+        <code>
+botcity.utils.parser.string.StringParser        </code>
 
 
 
@@ -1134,7 +1358,7 @@
 
 
 
-<h3 class="doc doc-heading" id="botcity.utils.parser.string.StringParser.current_position">
+<h3 id="botcity.utils.parser.string.StringParser.current_position" class="doc doc-heading">
 <code class="highlight language-python"><span class="n">current_position</span><span class="p">:</span> <span class="nb">int</span></code>
 
   <span class="doc doc-properties">
@@ -1160,7 +1384,7 @@
 
 
 
-<h3 class="doc doc-heading" id="botcity.utils.parser.string.StringParser.__init__">
+<h3 id="botcity.utils.parser.string.StringParser.__init__" class="doc doc-heading">
 <code class="highlight language-python"><span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">content</span><span class="p">)</span></code>
 
   <span class="doc doc-properties">
@@ -1202,7 +1426,7 @@
 
 
 
-<h3 class="doc doc-heading" id="botcity.utils.parser.string.StringParser.back_to_tag_end">
+<h3 id="botcity.utils.parser.string.StringParser.back_to_tag_end" class="doc doc-heading">
 <code class="highlight language-python"><span class="n">back_to_tag_end</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">tag</span><span class="p">)</span></code>
 
 
@@ -1243,7 +1467,7 @@ the search tag.</p>
   <tbody>
     <tr>
       <td><code>bool</code></td>
-      <td><p>bool: Whether or not it was possible to move the cursor.</p></td>
+      <td><p>Whether or not it was possible to move the cursor.</p></td>
     </tr>
   </tbody>
 </table>
@@ -1257,7 +1481,7 @@ the search tag.</p>
 
 
 
-<h3 class="doc doc-heading" id="botcity.utils.parser.string.StringParser.back_to_tag_start">
+<h3 id="botcity.utils.parser.string.StringParser.back_to_tag_start" class="doc doc-heading">
 <code class="highlight language-python"><span class="n">back_to_tag_start</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">tag</span><span class="p">)</span></code>
 
 
@@ -1298,7 +1522,7 @@ the search tag.</p>
   <tbody>
     <tr>
       <td><code>bool</code></td>
-      <td><p>bool: Whether or not it was possible to move the cursor.</p></td>
+      <td><p>Whether or not it was possible to move the cursor.</p></td>
     </tr>
   </tbody>
 </table>
@@ -1312,7 +1536,7 @@ the search tag.</p>
 
 
 
-<h3 class="doc doc-heading" id="botcity.utils.parser.string.StringParser.backward_contains">
+<h3 id="botcity.utils.parser.string.StringParser.backward_contains" class="doc doc-heading">
 <code class="highlight language-python"><span class="n">backward_contains</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">tag</span><span class="p">)</span></code>
 
 
@@ -1353,7 +1577,7 @@ from the beginning until the current cursor position.</p>
   <tbody>
     <tr>
       <td><code>bool</code></td>
-      <td><p>bool: True in case the tag is found, False otherwise.</p></td>
+      <td><p>True in case the tag is found, False otherwise.</p></td>
     </tr>
   </tbody>
 </table>
@@ -1367,7 +1591,7 @@ from the beginning until the current cursor position.</p>
 
 
 
-<h3 class="doc doc-heading" id="botcity.utils.parser.string.StringParser.get_next_chars">
+<h3 id="botcity.utils.parser.string.StringParser.get_next_chars" class="doc doc-heading">
 <code class="highlight language-python"><span class="n">get_next_chars</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">chars</span><span class="p">)</span></code>
 
 
@@ -1408,7 +1632,7 @@ with the addition of <code>chars</code> more characters.</p>
   <tbody>
     <tr>
       <td><code>str</code></td>
-      <td><p>str: The sliced content.</p></td>
+      <td><p>The sliced content.</p></td>
     </tr>
   </tbody>
 </table>
@@ -1422,7 +1646,7 @@ with the addition of <code>chars</code> more characters.</p>
 
 
 
-<h3 class="doc doc-heading" id="botcity.utils.parser.string.StringParser.goto_next_line">
+<h3 id="botcity.utils.parser.string.StringParser.goto_next_line" class="doc doc-heading">
 <code class="highlight language-python"><span class="n">goto_next_line</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">linesep</span><span class="o">=</span><span class="kc">None</span><span class="p">)</span></code>
 
 
@@ -1445,7 +1669,7 @@ with the addition of <code>chars</code> more characters.</p>
   <tbody>
       <tr>
         <td><code>linesep</code></td>
-        <td><code>Optional[str]</code></td>
+        <td><code>str</code></td>
         <td><p>The line separator. If not specified the system line separator is used.</p></td>
         <td><code>None</code></td>
       </tr>
@@ -1462,7 +1686,7 @@ with the addition of <code>chars</code> more characters.</p>
   <tbody>
     <tr>
       <td><code>StringParser</code></td>
-      <td><p>StringParser: this object.</p></td>
+      <td><p>this object.</p></td>
     </tr>
   </tbody>
 </table>
@@ -1476,7 +1700,7 @@ with the addition of <code>chars</code> more characters.</p>
 
 
 
-<h3 class="doc doc-heading" id="botcity.utils.parser.string.StringParser.goto_tag_end">
+<h3 id="botcity.utils.parser.string.StringParser.goto_tag_end" class="doc doc-heading">
 <code class="highlight language-python"><span class="n">goto_tag_end</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">tag</span><span class="p">)</span></code>
 
 
@@ -1516,7 +1740,7 @@ with the addition of <code>chars</code> more characters.</p>
   <tbody>
     <tr>
       <td><code>StringParser</code></td>
-      <td><p>StringParser: this object.</p></td>
+      <td><p>this object.</p></td>
     </tr>
   </tbody>
 </table>
@@ -1530,7 +1754,7 @@ with the addition of <code>chars</code> more characters.</p>
 
 
 
-<h3 class="doc doc-heading" id="botcity.utils.parser.string.StringParser.goto_tag_start">
+<h3 id="botcity.utils.parser.string.StringParser.goto_tag_start" class="doc doc-heading">
 <code class="highlight language-python"><span class="n">goto_tag_start</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">tag</span><span class="p">)</span></code>
 
 
@@ -1570,7 +1794,7 @@ with the addition of <code>chars</code> more characters.</p>
   <tbody>
     <tr>
       <td><code>StringParser</code></td>
-      <td><p>StringParser: this object.</p></td>
+      <td><p>this object.</p></td>
     </tr>
   </tbody>
 </table>
@@ -1584,7 +1808,7 @@ with the addition of <code>chars</code> more characters.</p>
 
 
 
-<h3 class="doc doc-heading" id="botcity.utils.parser.string.StringParser.next_contains">
+<h3 id="botcity.utils.parser.string.StringParser.next_contains" class="doc doc-heading">
 <code class="highlight language-python"><span class="n">next_contains</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">tag</span><span class="p">)</span></code>
 
 
@@ -1625,7 +1849,7 @@ from the current cursor position.</p>
   <tbody>
     <tr>
       <td><code>bool</code></td>
-      <td><p>bool: True in case the tag is found, False otherwise.</p></td>
+      <td><p>True in case the tag is found, False otherwise.</p></td>
     </tr>
   </tbody>
 </table>
@@ -1639,7 +1863,7 @@ from the current cursor position.</p>
 
 
 
-<h3 class="doc doc-heading" id="botcity.utils.parser.string.StringParser.read">
+<h3 id="botcity.utils.parser.string.StringParser.read" class="doc doc-heading">
 <code class="highlight language-python"><span class="n">read</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span></code>
 
 
@@ -1660,7 +1884,7 @@ from the current cursor position.</p>
   <tbody>
     <tr>
       <td><code>str</code></td>
-      <td><p>str: the remaining content.</p></td>
+      <td><p>the remaining content.</p></td>
     </tr>
   </tbody>
 </table>
@@ -1674,7 +1898,7 @@ from the current cursor position.</p>
 
 
 
-<h3 class="doc doc-heading" id="botcity.utils.parser.string.StringParser.read_next_lines">
+<h3 id="botcity.utils.parser.string.StringParser.read_next_lines" class="doc doc-heading">
 <code class="highlight language-python"><span class="n">read_next_lines</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">lines</span><span class="p">,</span> <span class="n">linesep</span><span class="o">=</span><span class="kc">None</span><span class="p">)</span></code>
 
 
@@ -1703,7 +1927,7 @@ from the current cursor position.</p>
       </tr>
       <tr>
         <td><code>linesep</code></td>
-        <td><code>Optional[str]</code></td>
+        <td><code>str</code></td>
         <td><p>The line separator. If not specified the system line separator is used.</p></td>
         <td><code>None</code></td>
       </tr>
@@ -1720,7 +1944,7 @@ from the current cursor position.</p>
   <tbody>
     <tr>
       <td><code>List</code></td>
-      <td><p>List: List of lines found.</p></td>
+      <td><p>List of lines found.</p></td>
     </tr>
   </tbody>
 </table>
@@ -1734,7 +1958,7 @@ from the current cursor position.</p>
 
 
 
-<h3 class="doc doc-heading" id="botcity.utils.parser.string.StringParser.read_next_lines_until">
+<h3 id="botcity.utils.parser.string.StringParser.read_next_lines_until" class="doc doc-heading">
 <code class="highlight language-python"><span class="n">read_next_lines_until</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">tag_end</span><span class="p">,</span> <span class="n">linesep</span><span class="o">=</span><span class="kc">None</span><span class="p">)</span></code>
 
 
@@ -1763,7 +1987,7 @@ from the current cursor position.</p>
       </tr>
       <tr>
         <td><code>linesep</code></td>
-        <td><code>Optional[str]</code></td>
+        <td><code>str</code></td>
         <td><p>The line separator. If not specified the system line separator is used.</p></td>
         <td><code>None</code></td>
       </tr>
@@ -1780,7 +2004,7 @@ from the current cursor position.</p>
   <tbody>
     <tr>
       <td><code>List</code></td>
-      <td><p>List: List of lines found.</p></td>
+      <td><p>List of lines found.</p></td>
     </tr>
   </tbody>
 </table>
@@ -1794,7 +2018,7 @@ from the current cursor position.</p>
 
 
 
-<h3 class="doc doc-heading" id="botcity.utils.parser.string.StringParser.read_until">
+<h3 id="botcity.utils.parser.string.StringParser.read_until" class="doc doc-heading">
 <code class="highlight language-python"><span class="n">read_until</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">end</span><span class="p">)</span></code>
 
 
@@ -1835,7 +2059,7 @@ until the position given by the <code>end</code> tag.</p>
   <tbody>
     <tr>
       <td><code>str</code></td>
-      <td><p>str: The sliced content between current position and <code>end</code> tag location.</p></td>
+      <td><p>The sliced content between current position and <code>end</code> tag location.</p></td>
     </tr>
   </tbody>
 </table>
@@ -1852,11 +2076,6 @@ until the position given by the <code>end</code> tag.</p>
     </div>
 
   </div>
-                
-              
-              
-                
-
 
               
             </article>
@@ -1870,8 +2089,7 @@ until the position given by the <code>end</code> tag.</p>
         
       </main>
       
-        
-<footer class="md-footer">
+        <footer class="md-footer">
   
     <nav class="md-footer__inner md-grid" aria-label="Footer">
       
@@ -1895,35 +2113,31 @@ until the position given by the <code>end</code> tag.</p>
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
-      <div class="md-footer-copyright">
-        
-          <div class="md-footer-copyright__highlight">
-            BotCity &copy; - All rights reserved
-          </div>
-        
-        Made with
-        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
-          Material for MkDocs
-        </a>
-        
-      </div>
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      BotCity &copy; - All rights reserved
+    </div>
+  
+  
+</div>
       
-  <div class="md-footer-social">
+        <div class="md-social">
+  
     
-      
-      
-      <a href="https://github.com/botcity-dev/botcity-plugins-python.git" target="_blank" rel="noopener" title="BotCity Plugins - Python -&gt; GitHub" class="md-footer-social__link">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
-      </a>
     
-      
-      
-      <a href="https://twitter.com/botcitydev" target="_blank" rel="noopener" title="BotCity on Twitter" class="md-footer-social__link">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
-      </a>
+    <a href="https://github.com/botcity-dev/botcity-plugins-python.git" target="_blank" rel="noopener" title="BotCity Plugins - Python -&gt; GitHub" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+    </a>
+  
     
-  </div>
-
+    
+    <a href="https://twitter.com/botcitydev" target="_blank" rel="noopener" title="BotCity on Twitter" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
+    </a>
+  
+</div>
+      
     </div>
   </div>
 </footer>
@@ -1932,10 +2146,10 @@ until the position given by the <code>end</code> tag.</p>
     <div class="md-dialog" data-md-component="dialog">
       <div class="md-dialog__inner md-typeset"></div>
     </div>
-    <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.top"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../../../assets/javascripts/workers/search.409db549.min.js", "version": null}</script>
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.top"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../../../assets/javascripts/workers/search.22074ed6.min.js"}</script>
     
     
-      <script src="../../../assets/javascripts/bundle.756773cc.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.960e086b.min.js"></script>
       
     
   </body>
