@@ -3,5 +3,6 @@ https://bitbucket.org/botcitydev/bot-cloudvision-plugin-python.git
 https://bitbucket.org/botcitydev/bot-crawler-plugin-python.git
 https://bitbucket.org/botcitydev/bot-csv-plugin-python.git
 https://bitbucket.org/botcitydev/bot-excel-plugin-python.git
+https://bitbucket.org/botcitydev/bot-googlesheets-plugin-python.git
 https://bitbucket.org/botcitydev/bot-http-plugin-python.git
 https://bitbucket.org/botcitydev/botcity-utils-python.git
