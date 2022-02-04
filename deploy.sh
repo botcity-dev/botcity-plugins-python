@@ -4,7 +4,7 @@
 source ./docs-env/bin/activate
 
 # Deploy the documentation
-mkdocs gh-pages
+mkdocs gh-deploy
 
 # Deactivate the virtual environment
 deactivate
