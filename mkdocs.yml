@@ -9,6 +9,7 @@ nav:
       - CSV:  '!include ./bot-csv-plugin-python/mkdocs.yml'
       - Excel: '!include ./bot-excel-plugin-python/mkdocs.yml'
       - Google Cloud Vision: '!include ./bot-cloudvision-plugin-python/mkdocs.yml'
+      - Google Drive: '!include ./bot-googledrive-plugin-python/mkdocs.yml'
       - Google Sheets: '!include ./bot-googlesheets-plugin-python/mkdocs.yml'
       - Http: '!include ./bot-http-plugin-python/mkdocs.yml'
     - Utils: '!include ./botcity-utils-python/mkdocs.yml'
