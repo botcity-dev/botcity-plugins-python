@@ -1552,10 +1552,14 @@ functions.</p>
 </code></pre></div>
 <p>As a demonstration of the library, let's build a simple
 example together that will do something cool.</p>
-<p>!!! warning
-    In some cases, in order to be able to use the email functionalities through the IMAP and SMTP protocols, it is necessary to activate the permission to use both protocols in the account settings. In addition, it may also be necessary to enable the option for less secure applications. (<a href="https://www.arclab.com/en/kb/email/how-to-enable-imap-pop3-smtp-gmail-account.html">details here</a>)</p>
-<p>!!! note
-    Please, avoid using words that contain accents or special characters when using the methods to filter and search for messages. This is a issue from the email servers, causing an exception when trying to search for emails using special characters in the filter.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>In some cases, in order to be able to use the email functionalities through the IMAP and SMTP protocols, it is necessary to activate the permission to use both protocols in the account settings. In addition, it may also be necessary to enable the option for less secure applications. (<a href="https://www.arclab.com/en/kb/email/how-to-enable-imap-pop3-smtp-gmail-account.html">details here</a>)</p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Please, avoid using words that contain accents or special characters when using the methods to filter and search for messages. This is a issue from the email servers, causing an exception when trying to search for emails using special characters in the filter.</p>
+</div>
 <h2 id="setting-up-email-account">Setting up email account</h2>
 <p>First, let's configure our email account and login with the credentials.</p>
 <div class="highlight"><pre><span></span><code><span class="c1"># Instantiate the plugin</span>
@@ -1570,8 +1574,10 @@ example together that will do something cool.</p>
 <span class="c1"># Login with a valid email account</span>
 <span class="n">email</span><span class="o">.</span><span class="n">login</span><span class="p">(</span><span class="s2">&quot;&lt;USER_EMAIL&gt;&quot;</span><span class="p">,</span> <span class="s2">&quot;&lt;USER_PASSWORD&gt;&quot;</span><span class="p">)</span>
 </code></pre></div>
-<p>!!! info
-    You can use different mail servers, the information about some servers can be seen on <a href="https://www.arclab.com/en/kb/email/list-of-smtp-and-imap-servers-mailserver-list.html">this page</a>.</p>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>You can use different mail servers, the information about some servers can be seen on <a href="https://www.arclab.com/en/kb/email/list-of-smtp-and-imap-servers-mailserver-list.html">this page</a>.</p>
+</div>
 <h2 id="alternative-setup">Alternative setup</h2>
 <p>You have the option to configure the servers that will be used the way you want. However, in some cases you can simply use the default settings of a known server and connect your account quickly.</p>
 <p>The configuration above could also look like this:
@@ -1593,8 +1599,10 @@ example together that will do something cool.</p>
     <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;From =&gt; &quot;</span> <span class="o">+</span> <span class="n">msg</span><span class="o">.</span><span class="n">from_</span><span class="p">)</span>
     <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Msg =&gt; &quot;</span> <span class="o">+</span> <span class="n">msg</span><span class="o">.</span><span class="n">text</span><span class="p">)</span>
 </code></pre></div>
-<p>!!! info
-    In this example, the <strong>SUBJECT</strong> attribute was used as a filter, you can have an idea of the attributes that can be used in <a href="https://www.marshallsoft.com/ImapSearch.htm">this link</a>.</p>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>In this example, the <strong>SUBJECT</strong> attribute was used as a filter, you can have an idea of the attributes that can be used in <a href="https://www.marshallsoft.com/ImapSearch.htm">this link</a>.</p>
+</div>
 <h2 id="another-way-for-fetching-some-email-messages">Another way for fetching some email messages</h2>
 <p>In the <strong>search</strong> method used above it is necessary to pass a string containing the filter that will be used. However, in some cases it can be confusing and it is difficult to build the filter correctly.</p>
 <p>Therefore, through the <strong>filter_by</strong> method it is possible to select the attribute that will be used in the filter and pass the value of this attribute. Making it much easier to build filters when retrieving messages.
