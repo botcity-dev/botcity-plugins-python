@@ -4,3 +4,5 @@ mkdocstrings
 mkdocs-material
 mkdocs-monorepo-plugin
 livereload
+# Pin due to https://github.com/mkdocs/mkdocs/pull/2795
+Jinja2==3.0.3

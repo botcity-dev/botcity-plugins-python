@@ -38,6 +38,9 @@ theme:
         name: Switch to light mode
 
 markdown_extensions:
+  - admonition
+  - tables
+  - pymdownx.details
   - pymdownx.highlight
   - pymdownx.superfences
 
