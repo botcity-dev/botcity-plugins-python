@@ -14,9 +14,10 @@ nav:
         - Google Sheets: '!include ./bot-googlesheets-plugin-python/mkdocs.yml'
       - Microsoft Office:
         - Excel: '!include ./bot-excel-plugin-python/mkdocs.yml'
-      - Captcha:  '!include ./bot-captcha-plugin-python/mkdocs.yml'
-      - Crawler:  '!include ./bot-crawler-plugin-python/mkdocs.yml'
-      - CSV:  '!include ./bot-csv-plugin-python/mkdocs.yml'
+      - Captcha: '!include ./bot-captcha-plugin-python/mkdocs.yml'
+      - Crawler: '!include ./bot-crawler-plugin-python/mkdocs.yml'
+      - CSV: '!include ./bot-csv-plugin-python/mkdocs.yml'
+      - Discord: '!include ./bot-discord-plugin-python/mkdocs.yml'
       - Email: '!include ./bot-email-plugin-python/mkdocs.yml'
       - Http: '!include ./bot-http-plugin-python/mkdocs.yml'
     - Utils: '!include ./botcity-utils-python/mkdocs.yml'

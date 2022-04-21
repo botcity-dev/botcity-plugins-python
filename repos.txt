@@ -4,6 +4,7 @@ git@bitbucket.org:botcitydev/bot-captcha-plugin-python.git
 git@bitbucket.org:botcitydev/bot-cloudvision-plugin-python.git
 git@bitbucket.org:botcitydev/bot-crawler-plugin-python.git
 git@bitbucket.org:botcitydev/bot-csv-plugin-python.git
+git@bitbucket.org:botcitydev/bot-discord-plugin-python.git
 git@bitbucket.org:botcitydev/bot-email-plugin-python.git
 git@bitbucket.org:botcitydev/bot-excel-plugin-python.git
 git@bitbucket.org:botcitydev/bot-gmail-plugin-python.git
