@@ -28,13 +28,9 @@ jobs:
           BB_PASSWORD: ${{ secrets.BB_PASSWORD }}
         run: |
           ./build.sh
-      - name: Debug
-        run: |
-          echo "Debugging..."
-          ls -la
-      # - name: Deploy to gh-pages
-      #   uses: peaceiris/actions-gh-pages@v3
-      #   if: github.ref == 'refs/heads/main' || startsWith(github.ref, 'refs/tags')
-      #   with:
-      #     github_token: ${{ secrets.GITHUB_TOKEN }}
-      #     publish_dir: ./site/
+      - name: Deploy to gh-pages
+        uses: peaceiris/actions-gh-pages@v3
+        if: github.ref == 'refs/heads/main' || startsWith(github.ref, 'refs/tags')
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./site/
