@@ -7,6 +7,7 @@ https://$BB_USERNAME:$BB_PASSWORD@bitbucket.org/botcitydev/bot-csv-plugin-python
 https://$BB_USERNAME:$BB_PASSWORD@bitbucket.org/botcitydev/bot-discord-plugin-python.git
 https://$BB_USERNAME:$BB_PASSWORD@bitbucket.org/botcitydev/bot-email-plugin-python.git
 https://$BB_USERNAME:$BB_PASSWORD@bitbucket.org/botcitydev/bot-excel-plugin-python.git
+https://$BB_USERNAME:$BB_PASSWORD@bitbucket.org/botcitydev/bot-ftp-plugin-python.git
 https://$BB_USERNAME:$BB_PASSWORD@bitbucket.org/botcitydev/bot-gmail-plugin-python.git
 https://$BB_USERNAME:$BB_PASSWORD@bitbucket.org/botcitydev/bot-googledrive-plugin-python.git
 https://$BB_USERNAME:$BB_PASSWORD@bitbucket.org/botcitydev/bot-googlesheets-plugin-python.git
