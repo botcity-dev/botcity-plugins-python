@@ -1,4 +1,5 @@
 #!/bin/bash
+set -e # Exit with nonzero exit code if anything fails
 
 # Remove env if it exists
 rm -rf docs-env

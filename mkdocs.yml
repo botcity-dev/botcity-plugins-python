@@ -19,6 +19,7 @@ nav:
       - CSV: '!include ./bot-csv-plugin-python/mkdocs.yml'
       - Discord: '!include ./bot-discord-plugin-python/mkdocs.yml'
       - Email: '!include ./bot-email-plugin-python/mkdocs.yml'
+      - FTP/SFTP: '!include ./bot-ftp-plugin-python/mkdocs.yml'
       - Http: '!include ./bot-http-plugin-python/mkdocs.yml'
     - Utils: '!include ./botcity-utils-python/mkdocs.yml'
 

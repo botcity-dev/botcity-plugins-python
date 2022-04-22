@@ -1,4 +1,5 @@
 #!/bin/bash
+set -e # Exit with nonzero exit code if anything fails
 
 # Install the docs build dependencies
 pip install -r docs-requirements.txt
