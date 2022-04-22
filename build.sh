@@ -4,7 +4,7 @@
 rm -rf docs-env
 
 # Create a new virtual env for us to build the documentation
-virtualenv -p python3 docs-env
+python -m venv -p python3 docs-env
 
 # Activate the virtualenv
 source ./docs-env/bin/activate
