@@ -17,7 +17,7 @@ input="./repos.txt"
 while IFS= read -r repo
 do
   # Clone the codebase
-  git clone "$repo"
+  $(eval "git clone $repo")
   # Get the cloned folder name
   folder=${repo##*/}
   folder=${folder%????}
