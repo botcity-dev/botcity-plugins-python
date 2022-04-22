@@ -1,5 +1,14 @@
 #!/bin/bash
 
+# Remove env if it exists
+rm -rf docs-env
+
+# Create a new virtual env for us to build the documentation
+python -m venv docs-env
+
+# Activate the virtualenv
+source ./docs-env/bin/activate
+
 # Install the docs build dependencies
 pip install -r docs-requirements.txt
 
@@ -18,3 +27,6 @@ done < "$input"
 
 # Build the documentation
 mkdocs build
+
+# Deactivate the virtual environment
+deactivate
