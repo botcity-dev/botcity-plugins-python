@@ -2326,11 +2326,11 @@ example together that will do something cool.</p>
 <div class="highlight"><pre><span></span><code><span class="c1"># Defining the attributes that will compose the message </span>
 <span class="n">to</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;&lt;RECEIVER_ADDRESS_1&gt;&quot;</span><span class="p">,</span> <span class="s2">&quot;&lt;RECEIVER_ADDRESS_2&gt;&quot;</span><span class="p">]</span>
 <span class="n">subject</span> <span class="o">=</span> <span class="s2">&quot;Hello World&quot;</span>
-<span class="n">body</span> <span class="o">=</span> <span class="s2">&quot;Hello! This is a test message!&quot;</span>
+<span class="n">body</span> <span class="o">=</span> <span class="s2">&quot;&lt;h1&gt;Hello!&lt;/h1&gt; This is a test message!&quot;</span>
 <span class="n">files</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;my_file.txt&quot;</span><span class="p">]</span>
 
 <span class="c1"># Sending the email message</span>
-<span class="n">email</span><span class="o">.</span><span class="n">send_message</span><span class="p">(</span><span class="n">subject</span><span class="p">,</span> <span class="n">body</span><span class="p">,</span> <span class="n">to</span><span class="p">,</span> <span class="n">attachments</span><span class="o">=</span><span class="n">files</span><span class="p">)</span>
+<span class="n">email</span><span class="o">.</span><span class="n">send_message</span><span class="p">(</span><span class="n">subject</span><span class="p">,</span> <span class="n">body</span><span class="p">,</span> <span class="n">to</span><span class="p">,</span> <span class="n">attachments</span><span class="o">=</span><span class="n">files</span><span class="p">,</span> <span class="n">use_html</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
 
 <span class="c1"># Close the conection with the IMAP and SMTP servers</span>
 <span class="n">email</span><span class="o">.</span><span class="n">disconnect</span><span class="p">()</span>
@@ -2365,11 +2365,11 @@ example together that will do something cool.</p>
 <span class="c1"># Defining the attributes that will compose the message </span>
 <span class="n">to</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;&lt;RECEIVER_ADDRESS_1&gt;&quot;</span><span class="p">,</span> <span class="s2">&quot;&lt;RECEIVER_ADDRESS_2&gt;&quot;</span><span class="p">]</span>
 <span class="n">subject</span> <span class="o">=</span> <span class="s2">&quot;Hello World&quot;</span>
-<span class="n">body</span> <span class="o">=</span> <span class="s2">&quot;Hello! This is a test message!&quot;</span>
+<span class="n">body</span> <span class="o">=</span> <span class="s2">&quot;&lt;h1&gt;Hello!&lt;/h1&gt; This is a test message!&quot;</span>
 <span class="n">files</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;my_file.txt&quot;</span><span class="p">]</span>
 
 <span class="c1"># Sending the email message</span>
-<span class="n">email</span><span class="o">.</span><span class="n">send_message</span><span class="p">(</span><span class="n">subject</span><span class="p">,</span> <span class="n">body</span><span class="p">,</span> <span class="n">to</span><span class="p">,</span> <span class="n">attachments</span><span class="o">=</span><span class="n">files</span><span class="p">)</span>
+<span class="n">email</span><span class="o">.</span><span class="n">send_message</span><span class="p">(</span><span class="n">subject</span><span class="p">,</span> <span class="n">body</span><span class="p">,</span> <span class="n">to</span><span class="p">,</span> <span class="n">attachments</span><span class="o">=</span><span class="n">files</span><span class="p">,</span> <span class="n">use_html</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
 
 <span class="c1"># Close the conection with the IMAP and SMTP servers</span>
 <span class="n">email</span><span class="o">.</span><span class="n">disconnect</span><span class="p">()</span>

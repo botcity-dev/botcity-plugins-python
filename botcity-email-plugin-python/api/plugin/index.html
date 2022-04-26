@@ -2917,7 +2917,7 @@ and login with an email account.</p>
 
 
 <h3 id="botcity.plugins.email.plugin.BotEmailPlugin.forward" class="doc doc-heading">
-<code class="highlight language-python"><span class="n">forward</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">msg</span><span class="p">,</span> <span class="n">to_addrs</span><span class="p">,</span> <span class="n">cc_addrs</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">bcc_addrs</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">include_attachments</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span></code>
+<code class="highlight language-python"><span class="n">forward</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">msg</span><span class="p">,</span> <span class="n">to_addrs</span><span class="p">,</span> <span class="n">cc_addrs</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">bcc_addrs</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">include_attachments</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">use_html</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span></code>
 
 
 </h3>
@@ -2966,6 +2966,12 @@ and login with an email account.</p>
         <td><code>boolean</code></td>
         <td><p>Include attachments from the original message.</p></td>
         <td><code>True</code></td>
+      </tr>
+      <tr>
+        <td><code>use_html</code></td>
+        <td><code>bool</code></td>
+        <td><p>The boolean value when you want to use body in html format.</p></td>
+        <td><code>False</code></td>
       </tr>
   </tbody>
 </table>      <div class="admonition note">
@@ -3203,7 +3209,7 @@ and login with an email account.</p>
 
 
 <h3 id="botcity.plugins.email.plugin.BotEmailPlugin.reply" class="doc doc-heading">
-<code class="highlight language-python"><span class="n">reply</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">msg</span><span class="p">,</span> <span class="n">text_content</span><span class="p">,</span> <span class="n">attachments</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">to_addrs</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">cc_addrs</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">bcc_addrs</span><span class="o">=</span><span class="kc">None</span><span class="p">)</span></code>
+<code class="highlight language-python"><span class="n">reply</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">msg</span><span class="p">,</span> <span class="n">text_content</span><span class="p">,</span> <span class="n">attachments</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">to_addrs</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">cc_addrs</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">bcc_addrs</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">use_html</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span></code>
 
 
 </h3>
@@ -3260,6 +3266,12 @@ as attachments.</p></td>
         <td><p>The list of email addresses that will receive the message as BCC.</p></td>
         <td><code>None</code></td>
       </tr>
+      <tr>
+        <td><code>use_html</code></td>
+        <td><code>bool</code></td>
+        <td><p>The boolean value when you want to use body in html format.</p></td>
+        <td><code>False</code></td>
+      </tr>
   </tbody>
 </table>      <div class="admonition note">
 <p class="admonition-title">Note</p>
@@ -3277,7 +3289,7 @@ as attachments.</p></td>
 
 
 <h3 id="botcity.plugins.email.plugin.BotEmailPlugin.reply_to_all" class="doc doc-heading">
-<code class="highlight language-python"><span class="n">reply_to_all</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">msg</span><span class="p">,</span> <span class="n">text_content</span><span class="p">,</span> <span class="n">attachments</span><span class="o">=</span><span class="kc">None</span><span class="p">)</span></code>
+<code class="highlight language-python"><span class="n">reply_to_all</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">msg</span><span class="p">,</span> <span class="n">text_content</span><span class="p">,</span> <span class="n">attachments</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">use_html</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span></code>
 
 
 </h3>
@@ -3315,6 +3327,12 @@ as attachments.</p></td>
         <td><p>The list with the paths of the files that will be sent
 as attachments.</p></td>
         <td><code>None</code></td>
+      </tr>
+      <tr>
+        <td><code>use_html</code></td>
+        <td><code>bool</code></td>
+        <td><p>The boolean value when you want to use body in html format.</p></td>
+        <td><code>False</code></td>
       </tr>
   </tbody>
 </table>      <div class="admonition note">
@@ -3450,7 +3468,7 @@ folders use get_folders().</p></td>
 
 
 <h3 id="botcity.plugins.email.plugin.BotEmailPlugin.send_message" class="doc doc-heading">
-<code class="highlight language-python"><span class="n">send_message</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">subject</span><span class="p">,</span> <span class="n">text_content</span><span class="p">,</span> <span class="n">to_addrs</span><span class="p">,</span> <span class="n">cc_addrs</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">bcc_addrs</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">attachments</span><span class="o">=</span><span class="kc">None</span><span class="p">)</span></code>
+<code class="highlight language-python"><span class="n">send_message</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">subject</span><span class="p">,</span> <span class="n">text_content</span><span class="p">,</span> <span class="n">to_addrs</span><span class="p">,</span> <span class="n">cc_addrs</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">bcc_addrs</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">attachments</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">use_html</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span></code>
 
 
 </h3>
@@ -3506,6 +3524,12 @@ folders use get_folders().</p></td>
         <td><p>The list with the paths of the files that will be sent
 as attachments.</p></td>
         <td><code>None</code></td>
+      </tr>
+      <tr>
+        <td><code>use_html</code></td>
+        <td><code>bool</code></td>
+        <td><p>The boolean value when you want to use body in html format.</p></td>
+        <td><code>False</code></td>
       </tr>
   </tbody>
 </table>      <div class="admonition note">
