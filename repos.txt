@@ -1,5 +1,6 @@
 https://$BB_USERNAME:$BB_PASSWORD@bitbucket.org/botcitydev/bot-aws-s3-plugin-python.git
 https://$BB_USERNAME:$BB_PASSWORD@bitbucket.org/botcitydev/bot-aws-lambda-plugin-python.git
+https://$BB_USERNAME:$BB_PASSWORD@bitbucket.org/botcitydev/bot-aws-secretsmanager-plugin-python.git
 https://$BB_USERNAME:$BB_PASSWORD@bitbucket.org/botcitydev/bot-captcha-plugin-python.git
 https://$BB_USERNAME:$BB_PASSWORD@bitbucket.org/botcitydev/bot-cloudvision-plugin-python.git
 https://$BB_USERNAME:$BB_PASSWORD@bitbucket.org/botcitydev/bot-crawler-plugin-python.git
@@ -7,6 +8,7 @@ https://$BB_USERNAME:$BB_PASSWORD@bitbucket.org/botcitydev/bot-csv-plugin-python
 https://$BB_USERNAME:$BB_PASSWORD@bitbucket.org/botcitydev/bot-discord-plugin-python.git
 https://$BB_USERNAME:$BB_PASSWORD@bitbucket.org/botcitydev/bot-email-plugin-python.git
 https://$BB_USERNAME:$BB_PASSWORD@bitbucket.org/botcitydev/bot-excel-plugin-python.git
+https://$BB_USERNAME:$BB_PASSWORD@bitbucket.org/botcitydev/bot-files-plugin-python.git
 https://$BB_USERNAME:$BB_PASSWORD@bitbucket.org/botcitydev/bot-ftp-plugin-python.git
 https://$BB_USERNAME:$BB_PASSWORD@bitbucket.org/botcitydev/bot-gmail-plugin-python.git
 https://$BB_USERNAME:$BB_PASSWORD@bitbucket.org/botcitydev/bot-googledrive-plugin-python.git

@@ -6,6 +6,7 @@ nav:
     - Plugins:
       - Amazon AWS:
         - S3: '!include ./bot-aws-s3-plugin-python/mkdocs.yml'
+        - Secrets Manager: '!include ./bot-aws-secretsmanager-plugin-python/mkdocs.yml'
         - Lambda: '!include ./bot-aws-lambda-plugin-python/mkdocs.yml'
       - Google:
         - Gmail: '!include ./bot-gmail-plugin-python/mkdocs.yml'
@@ -19,6 +20,7 @@ nav:
       - CSV: '!include ./bot-csv-plugin-python/mkdocs.yml'
       - Discord: '!include ./bot-discord-plugin-python/mkdocs.yml'
       - Email: '!include ./bot-email-plugin-python/mkdocs.yml'
+      - File Handling: '!include ./bot-files-plugin-python/mkdocs.yml'
       - FTP/SFTP: '!include ./bot-ftp-plugin-python/mkdocs.yml'
       - Http: '!include ./bot-http-plugin-python/mkdocs.yml'
     - Utils: '!include ./botcity-utils-python/mkdocs.yml'
