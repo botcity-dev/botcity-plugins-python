@@ -14,4 +14,5 @@ https://$BB_USERNAME:$BB_PASSWORD@bitbucket.org/botcitydev/bot-gmail-plugin-pyth
 https://$BB_USERNAME:$BB_PASSWORD@bitbucket.org/botcitydev/bot-googledrive-plugin-python.git
 https://$BB_USERNAME:$BB_PASSWORD@bitbucket.org/botcitydev/bot-googlesheets-plugin-python.git
 https://$BB_USERNAME:$BB_PASSWORD@bitbucket.org/botcitydev/bot-http-plugin-python.git
+https://$BB_USERNAME:$BB_PASSWORD@bitbucket.org/botcitydev/bot-recorder-plugin-python.git
 https://$BB_USERNAME:$BB_PASSWORD@bitbucket.org/botcitydev/botcity-utils-python.git
