@@ -23,6 +23,7 @@ nav:
       - File Handling: '!include ./bot-files-plugin-python/mkdocs.yml'
       - FTP/SFTP: '!include ./bot-ftp-plugin-python/mkdocs.yml'
       - Http: '!include ./bot-http-plugin-python/mkdocs.yml'
+      - Recorder: '!include ./bot-recorder-plugin-python/mkdocs.yml'
     - Utils: '!include ./botcity-utils-python/mkdocs.yml'
 
 theme:
