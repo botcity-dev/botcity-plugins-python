@@ -13,6 +13,8 @@ nav:
         - Google Cloud Vision: '!include ./bot-cloudvision-plugin-python/mkdocs.yml'
         - Google Drive: '!include ./bot-googledrive-plugin-python/mkdocs.yml'
         - Google Sheets: '!include ./bot-googlesheets-plugin-python/mkdocs.yml'
+      - HashiCorp:
+        - Vault: '!include ./bot-hashicorp-vault-plugin-python/mkdocs.yml'
       - Microsoft Office:
         - Excel: '!include ./bot-excel-plugin-python/mkdocs.yml'
       - Captcha: '!include ./bot-captcha-plugin-python/mkdocs.yml'
