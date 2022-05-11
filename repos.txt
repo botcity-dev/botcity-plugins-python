@@ -13,6 +13,7 @@ https://$BB_USERNAME:$BB_PASSWORD@bitbucket.org/botcitydev/bot-ftp-plugin-python
 https://$BB_USERNAME:$BB_PASSWORD@bitbucket.org/botcitydev/bot-gmail-plugin-python.git
 https://$BB_USERNAME:$BB_PASSWORD@bitbucket.org/botcitydev/bot-googledrive-plugin-python.git
 https://$BB_USERNAME:$BB_PASSWORD@bitbucket.org/botcitydev/bot-googlesheets-plugin-python.git
+https://$BB_USERNAME:$BB_PASSWORD@bitbucket.org/botcitydev/bot-hashicorp-vault-plugin-python.git
 https://$BB_USERNAME:$BB_PASSWORD@bitbucket.org/botcitydev/bot-http-plugin-python.git
 https://$BB_USERNAME:$BB_PASSWORD@bitbucket.org/botcitydev/bot-recorder-plugin-python.git
 https://$BB_USERNAME:$BB_PASSWORD@bitbucket.org/botcitydev/botcity-utils-python.git
